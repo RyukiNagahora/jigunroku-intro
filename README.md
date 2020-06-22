@@ -1,17 +1,13 @@
-# WEB_SIMPLE
-- html: pug
-- css: stylus
-- js: babel
-- Javascript Standard Style 準拠
+# 東京字群抽出計測録 - イントロ
 
-## memo
-- パッケージのバージョンを上げた
-- minifyとかrelease用のファイルはdebugに生成されたファイルから生成するようにしよう
+# サイト
+http://nghryuki.online/jigunroku-intro/
 
-## reset.css
-http://html5doctor.com/html-5-reset-stylesheet/
-
-## TODO
-- reset.css にボーダーを内側にいれる設定を追加
-- debug, release の仕分けをちゃんと書く
-- JSのエラーもgulp-notifyでとりたい
+# GUI
+- [H]キー : 表示・非表示
+- パラメタ
+  - scaleMin : ランダムで変わる文字の大きさの最小スケール
+  - scaleMax : ランダムで変わる文字の大きさの最大スケール
+  - startDurationSec : 単語と単語がでてくるタイミングの初期値
+  - startUpSec : 段々と早くなる単語の表示タイミングの時間
+  - allSec : 表示演出のトータル時間
